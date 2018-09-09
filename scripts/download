@@ -91,9 +91,9 @@ if [ "${SKIP_BITCOIN_DOWNLOAD}" = 1 ]; then
 fi
 
 # Force verification for now
-#if [ "${VERIFY_BITCOIN_DOWNLOAD}" = 1 ]; then
+if [ "${VERIFY_BITCOIN_DOWNLOAD}" = 1 ]; then
     verify=1;
-#fi
+fi
 
 while [ -n "$1" ]; do
   param="$1"
