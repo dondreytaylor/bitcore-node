@@ -6,7 +6,7 @@ root_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/.."
 platform=`uname -a | awk '{print tolower($1)}'`
 arch=`uname -m`
 version="0.15.0"
-url="https://github.com/satoshilabs/bitcoin-gold/releases/download"
+url="https://github.com/trezor-graveyard/bitcoin-gold/releases/download"
 tag="v0.15.0.1"
 
 if [ "${platform}" == "linux" ]; then
